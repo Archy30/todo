@@ -1,2 +1,117 @@
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.main{width:100%;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center}.container{width:50%;height:90%;background-color:#fff;margin:25px;border:1px solid #000}.heading{height:15%;font-size:1.7rem;background-color:#a9efff;color:#131313;margin:0;font-family:"Fredoka One",cursive;font-family:"Knewave",cursive;font-family:"Montserrat",sans-serif;font-family:"Noto Serif",serif;font-family:"Open Sans",sans-serif;font-family:"Otomanopee One",sans-serif;font-family:"Patua One",cursive}.additem,.heading{width:100%;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center}.additem{height:60px}.additem input{height:20px;width:200px;border:none;border-bottom:3px solid #000;background-color:#fff;font-size:1rem}.additem input:focus{outline:none}.bt{height:26px;font-size:24px;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center;display:-webkit-flex;display:flex;border:none;margin-left:5px;background-color:#a9efff}.bt:hover{background-color:#bbb}.liitem{display:-webkit-flex;display:flex;font-size:1.3rem;margin:7px;text-align:center;-webkit-align-items:center;align-items:center}.ulitem{height:80%}.buttn{margin-right:4px;background-color:#a9efff;border:none;border-radius:50px;height:30px;width:30px}.buttn:hover:hover{background-color:#bbb}@media screen and (max-width:769px){.container{width:100%;margin:0;border:none}.heading{height:60px}.additem{height:90px}.additem input{height:30px;font-size:1.2rem}.bt{height:29px;font-size:29px}.liitem{margin:10px}}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.main{width:100%;display:-webkit-flex;
+    display:flex;
+    -webkit-justify-content:center;
+    justify-content:center;
+    -webkit-align-items:center;
+    align-items:center;
+}
+.container{
+  width:50%;
+  height:90%;
+  background-color:#fff;
+  margin:25px;border:1px solid #000;
+}
+.heading
+{height:15%;font-size:1.7rem;
+  background-color:#a9efff;
+  color:#131313;margin:0;
+  font-family:"Fredoka One",cursive;
+  font-family:"Knewave",cursive;font-family:"Montserrat",sans-serif;font-family:"Noto Serif",serif;font-family:"Open Sans",sans-serif;
+  font-family:"Otomanopee One",sans-serif;font-family:"Patua One",cursive;
+}
+.additem,.heading
+{width:100%;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-justify-content:center;
+  justify-content:center;
+  -webkit-align-items:center;
+  align-items:center;
+}
+.additem
+{height:60px
+}
+.additem input
+{
+  height:20px;
+  width:200px;
+  border:none;
+  border-bottom:3px solid #000;
+  background-color:#fff;font-size:1rem;
+}
+.additem input:focus
+{outline:none;
+}
+.bt
+{
+  height:26px;
+  font-size:24px;
+  -webkit-justify-content:center;
+  justify-content:center;
+  -webkit-align-items:center;
+  align-items:center;
+  display:-webkit-flex;
+  display:flex;
+  border:none;
+  margin-left:5px;
+  background-color:#a9efff;
+}
+.bt:hover
+{
+  background-color:#bbb;
+}
+.liitem
+{
+  display:-webkit-flex;
+  display:flex;
+  font-size:1.3rem;
+  margin:7px;
+  text-align:center;
+  -webkit-align-items:center;
+  align-items:center;
+}
+.ulitem{
+  height:80%
+}
+.buttn
+{
+  margin-right:4px;
+  background-color:#a9efff;
+  border:none;
+  border-radius:50px;
+  height:30px;
+  width:30px;
+}
+.buttn:hover:hover
+{
+  background-color:#bbb;
+}
+@media screen and (max-width:769px)
+{.container
+  {width:100%;
+    margin:0;
+    border:none;
+  }
+  .heading
+  {
+    height:60px;
+  }
+  .additem{
+    height:90px;
+  }
+  .additem input{
+    height:30px;
+    font-size:1.2rem;
+  }
+  .bt{
+    height:29px;
+    font-size:29px;
+  }
+  .liitem{
+    margin:10px;
+  }
+}
+
 /*# sourceMappingURL=main.be411c37.chunk.css.map */
