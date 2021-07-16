@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+.main{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.container{
+  width:50%;
+  height:90%;
+  background-color:white ; 
+  margin:25px;
+  border:solid 1px black;
+}
+.heading{
+  width:100%;
+  height:15%;
+  font-size: 1.7rem;
+  background-color:#A9EFFF ;
+  color: rgb(19, 19, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  font-family: 'Fredoka One', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Otomanopee One', sans-serif;
+font-family: 'Patua One', cursive;
+}
+.additem{
+  width:100%;
+  height:60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.additem input{
+  height:20px;
+  width:200px;
+  border: none;
+  border-bottom: 3px solid black;
+  background-color: white;
+  font-size: 1rem;
+}
+.additem input:focus{
+  outline:none;
+}
+.bt{
+  height: 26px;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: none;
+  margin-left: 5px;
+  background-color: #A9EFFF;
+}
+.bt:hover{
+  background-color: rgb(187, 187, 187);
+  outline: none;
+}
+
+.liitem{
+  display: flex;
+  font-size: 1.3rem;
+  margin:7px;
+  text-align: center;
+  align-items: center;
+}
+.ulitem{
+  height:80%;
+}
+.buttn{
+  margin-right: 4px;
+  background-color: #A9EFFF;
+  border: none;
+  border-radius: 50px;
+  height: 30px;
+  width:30px;
+}
+.buttn:hover{
+  background-color: rgb(187, 187, 187);
+}
+
+@media screen and (max-width:769px)
+{
+    .container{
+      width:100%;
+      margin:0px;
+      border:none;
+    }
+    .heading{
+      height:80px;
+      font-size: 2rem;
+    }
+    .additem{
+      height:90px;
+    }
+    .additem input{
+      height:30px; 
+      font-size: 1.2rem;
+    }
+    .bt{
+      height: 32px;
+      width:32px;
+      font-size: 29px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .bt:hover{
+      outline: none;
+      background-color: rgb(187, 187, 187);
+    }
+    .liitem{
+      margin:10px;
+    }
+}
